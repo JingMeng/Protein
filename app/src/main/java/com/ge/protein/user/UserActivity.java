@@ -16,7 +16,7 @@
 package com.ge.protein.user;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import com.ge.protein.R;
 import com.ge.protein.data.model.User;
@@ -51,3 +51,4 @@ public class UserActivity extends BaseProteinActivity {
         userPresenter.onSaveInstanceState(outState);
     }
 }
+

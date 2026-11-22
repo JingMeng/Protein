@@ -17,7 +17,7 @@ package com.ge.protein.ui.epoxy.decoration;
 
 import android.content.Context;
 import android.graphics.Rect;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 
 import com.ge.protein.R;
@@ -37,3 +37,4 @@ public class ShotMoreDecoration extends RecyclerView.ItemDecoration {
         outRect.set(horizontalInset, verticalInset, horizontalInset, verticalInset);
     }
 }
+

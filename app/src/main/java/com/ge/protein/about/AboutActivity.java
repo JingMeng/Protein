@@ -16,7 +16,7 @@
 package com.ge.protein.about;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import com.ge.protein.R;
 import com.ge.protein.firebase.FirebaseCrashUtils;
@@ -46,3 +46,4 @@ public class AboutActivity extends BaseProteinActivity {
         aboutPresenter = new AboutPresenter(aboutFragment);
     }
 }
+

@@ -18,7 +18,7 @@ package com.ge.protein.about;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.ge.droid.mdlicense.Library;
 import com.ge.droid.mdlicense.MDLicenseIntent;
@@ -122,3 +122,4 @@ class AboutPresenter implements AboutContract.Presenter {
         return libraries;
     }
 }
+

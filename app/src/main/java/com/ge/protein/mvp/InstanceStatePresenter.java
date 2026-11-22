@@ -16,7 +16,7 @@
 package com.ge.protein.mvp;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 public interface InstanceStatePresenter {
 
@@ -24,3 +24,4 @@ public interface InstanceStatePresenter {
 
     void onRestoreInstanceState(@NonNull Bundle savedInstanceState);
 }
+

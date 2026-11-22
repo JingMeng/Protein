@@ -16,7 +16,7 @@
 package com.ge.protein.ui.activity;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import com.ge.protein.util.AccountManager;
 import com.trello.rxlifecycle2.components.support.RxAppCompatActivity;
@@ -36,3 +36,4 @@ public abstract class BaseProteinActivity extends RxAppCompatActivity {
     }
 
 }
+

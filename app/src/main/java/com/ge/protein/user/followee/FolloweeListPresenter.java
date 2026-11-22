@@ -18,7 +18,7 @@ package com.ge.protein.user.followee;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Parcelable;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.view.View;
 
 import com.airbnb.epoxy.EpoxyModel;
@@ -150,3 +150,4 @@ public class FolloweeListPresenter extends ListPresenter<Followee> {
         view.getContext().startActivity(intent);
     };
 }
+

@@ -15,7 +15,7 @@
  */
 package com.ge.protein.ui.epoxy;
 
-import android.support.annotation.CallSuper;
+import androidx.annotation.CallSuper;
 import android.view.View;
 
 import com.airbnb.epoxy.EpoxyHolder;

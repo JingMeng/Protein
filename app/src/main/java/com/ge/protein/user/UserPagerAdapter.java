@@ -15,9 +15,9 @@
  */
 package com.ge.protein.user;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.ge.protein.data.model.User;
 import com.ge.protein.user.followee.FolloweeListFragment;
@@ -66,3 +66,4 @@ class UserPagerAdapter extends FragmentPagerAdapter {
         return 4;
     }
 }
+

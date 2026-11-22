@@ -16,7 +16,7 @@
 package com.ge.protein.user.shotlike;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.ge.protein.mvp.ListFragment;
 
@@ -38,3 +38,4 @@ public class ShotLikeListFragment extends ListFragment {
         listPresenter.onRestoreInstanceState(savedInstanceState);
     }
 }
+

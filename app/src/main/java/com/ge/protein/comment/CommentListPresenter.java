@@ -18,7 +18,7 @@ package com.ge.protein.comment;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Parcelable;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.text.TextUtils;
 import android.view.View;
 
@@ -157,3 +157,4 @@ class CommentListPresenter extends ListPresenter<Comment> implements InstanceSta
         }
     };
 }
+

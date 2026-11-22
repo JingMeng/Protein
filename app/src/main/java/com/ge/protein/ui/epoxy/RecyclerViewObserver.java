@@ -15,8 +15,8 @@
  */
 package com.ge.protein.ui.epoxy;
 
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
 
 public class RecyclerViewObserver {
@@ -81,3 +81,4 @@ public class RecyclerViewObserver {
     }
 
 }
+

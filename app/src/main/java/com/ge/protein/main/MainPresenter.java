@@ -17,9 +17,9 @@ package com.ge.protein.main;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.annotation.NonNull;
-import android.support.v4.app.DialogFragment;
-import android.support.v4.app.FragmentActivity;
+import androidx.annotation.NonNull;
+import androidx.fragment.app.DialogFragment;
+import androidx.fragment.app.FragmentActivity;
 import android.text.TextUtils;
 
 import com.ge.protein.about.AboutActivity;
@@ -128,3 +128,4 @@ class MainPresenter implements MainContract.Presenter {
                 });
     }
 }
+

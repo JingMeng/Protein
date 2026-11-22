@@ -18,8 +18,8 @@ package com.ge.protein.main.shot;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Parcelable;
-import android.support.annotation.IntDef;
-import android.support.annotation.NonNull;
+import androidx.annotation.IntDef;
+import androidx.annotation.NonNull;
 import android.text.TextUtils;
 import android.view.View;
 
@@ -196,3 +196,4 @@ public class ShotListPresenter extends ListPresenter<Shot> {
         view.getContext().startActivity(userIntent);
     };
 }
+

@@ -15,8 +15,8 @@
  */
 package com.ge.protein.mvp;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 import static com.ge.protein.util.Preconditions.checkNotNull;
 
@@ -49,3 +49,4 @@ public abstract class ListPresenter<DATA> implements ListContract.Presenter<DATA
         this.nextPageUrl = nextPageUrl;
     }
 }
+

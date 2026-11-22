@@ -15,8 +15,8 @@
  */
 package com.ge.protein.comment.post;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 import com.ge.protein.R;
 import com.ge.protein.data.model.Shot;
@@ -68,3 +68,4 @@ public class CommentPostPresenter implements CommentPostContract.Presenter {
                 });
     }
 }
+

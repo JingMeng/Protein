@@ -15,7 +15,7 @@
  */
 package com.ge.protein.mvp;
 
-import android.support.annotation.StringRes;
+import androidx.annotation.StringRes;
 
 public interface SnackbarView {
 

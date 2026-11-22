@@ -19,8 +19,8 @@ package com.ge.protein.util.glide;
 
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.Nullable;
-import android.support.v4.content.ContextCompat;
+import androidx.annotation.Nullable;
+import androidx.core.content.ContextCompat;
 
 import com.bumptech.glide.load.resource.gif.GifDrawable;
 import com.bumptech.glide.request.target.DrawableImageViewTarget;
@@ -67,3 +67,4 @@ public class DribbbleTarget extends DrawableImageViewTarget {
     }
 
 }
+

@@ -18,7 +18,7 @@ package com.ge.protein.user.shot;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Parcelable;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.text.TextUtils;
 import android.view.View;
 
@@ -158,3 +158,4 @@ public class UserShotListPresenter extends ListPresenter<Shot> {
         view.getContext().startActivity(shotDetailIntent);
     };
 }
+

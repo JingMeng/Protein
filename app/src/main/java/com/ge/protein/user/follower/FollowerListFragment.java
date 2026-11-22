@@ -16,7 +16,7 @@
 package com.ge.protein.user.follower;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.view.View;
 
 import com.ge.protein.mvp.ListFragment;
@@ -47,3 +47,4 @@ public class FollowerListFragment extends ListFragment {
         recyclerView.addItemDecoration(new UserDecoration(getContext()));
     }
 }
+

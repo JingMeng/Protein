@@ -15,11 +15,11 @@
   limitations under the License.
   -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.ge.protein">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:name="com.ge.protein.DebugProteinApp"
         tools:replace="android:name">
+        <activity android:name="com.squareup.leakcanary.internal.DisplayLeakActivity" android:exported="false" />
     </application>
 </manifest>

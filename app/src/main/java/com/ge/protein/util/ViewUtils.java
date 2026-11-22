@@ -20,10 +20,10 @@ import android.graphics.Color;
 import android.graphics.Outline;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.RippleDrawable;
-import android.support.annotation.ColorInt;
-import android.support.annotation.FloatRange;
-import android.support.annotation.NonNull;
-import android.support.v7.graphics.Palette;
+import androidx.annotation.ColorInt;
+import androidx.annotation.FloatRange;
+import androidx.annotation.NonNull;
+import androidx.palette.graphics.Palette;
 import android.view.View;
 import android.view.ViewOutlineProvider;
 
@@ -72,3 +72,4 @@ public class ViewUtils {
     }
 
 }
+

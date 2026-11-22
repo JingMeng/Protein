@@ -21,13 +21,11 @@ import com.ge.protein.R;
 import com.ge.protein.firebase.FirebaseCrashUtils;
 import com.ge.protein.ui.activity.BaseProteinActivity;
 
-import hugo.weaving.DebugLog;
 
 public class MainActivity extends BaseProteinActivity {
 
     private MainPresenter mainPresenter;
 
-    @DebugLog
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

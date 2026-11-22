@@ -17,7 +17,7 @@ package com.ge.protein.shot;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.ge.protein.R;
 import com.ge.protein.comment.CommentsActivity;
@@ -179,3 +179,4 @@ class ShotPresenter implements ShotContract.Presenter, InstanceStatePresenter {
         view.getContext().startActivity(share);
     }
 }
+

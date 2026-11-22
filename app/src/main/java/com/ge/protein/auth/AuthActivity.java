@@ -16,7 +16,7 @@
 package com.ge.protein.auth;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import com.ge.protein.R;
 import com.ge.protein.firebase.FirebaseCrashUtils;
@@ -46,3 +46,4 @@ public class AuthActivity extends BaseProteinActivity {
         authPresenter = new AuthPresenter(authFragment);
     }
 }
+

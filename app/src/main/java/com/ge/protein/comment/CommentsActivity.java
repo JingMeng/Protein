@@ -16,7 +16,7 @@
 package com.ge.protein.comment;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import com.ge.protein.R;
 import com.ge.protein.comment.post.CommentPostFragment;
@@ -80,3 +80,4 @@ public class CommentsActivity extends BaseProteinActivity {
         commentListPresenter.onSaveInstanceState(outState);
     }
 }
+

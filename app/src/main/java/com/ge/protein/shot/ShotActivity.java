@@ -17,7 +17,7 @@ package com.ge.protein.shot;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.text.TextUtils;
 
 import com.airbnb.deeplinkdispatch.DeepLink;
@@ -81,3 +81,4 @@ public class ShotActivity extends BaseProteinActivity {
     }
 
 }
+

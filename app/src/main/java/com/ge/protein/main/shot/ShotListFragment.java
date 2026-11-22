@@ -16,7 +16,7 @@
 package com.ge.protein.main.shot;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 import com.ge.protein.mvp.ListFragment;
 
@@ -38,3 +38,4 @@ public class ShotListFragment extends ListFragment {
         listPresenter.onRestoreInstanceState(savedInstanceState);
     }
 }
+
